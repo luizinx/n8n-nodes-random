@@ -37,7 +37,6 @@ services:
     volumes:
       - n8n_data:/home/node/.n8n
       - ./custom:/home/node/.n8n/custom
-      - ./infra/local_files:/files
 
 volumes:
   pg_data:
