@@ -46,7 +46,7 @@ O n8n ficará disponível em: http://localhost:5678
 
 ### 5. Variáveis de Ambiente
 
-- Configuração já definida no docker-compose.yml:
+- Configuração já definida no docker-compose.yml
 
 #### TESTE FINAL ####
 Acesse o painel do n8n:
