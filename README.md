@@ -44,7 +44,9 @@ Esse comando:
 O Postgres será iniciado automaticamente
 O n8n ficará disponível em: http://localhost:5678
 
-. Teste o Node no n8n
+### 5. Variáveis de Ambiente
+
+- Configuração já definida no docker-compose.yml:
 
 #### TESTE FINAL ####
 Acesse o painel do n8n:
