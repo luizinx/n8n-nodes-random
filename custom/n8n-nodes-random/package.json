@@ -1,0 +1,37 @@
+{
+  "name": "n8n-nodes-random",
+  "version": "0.1.0",
+  "description": "Random.org True Random Number Generator for n8n",
+  "license": "MIT",
+  "author": "Luiz Fernando",
+  "keywords": [
+    "n8n",
+    "random",
+    "random.org",
+    "custom-node"
+  ],
+  "main": "dist/index.js",
+  "files": [
+    "dist/**",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc && npm run copy-assets",
+    "copy-assets": "cpx src/nodes/Random/random.svg dist/nodes/Random/",
+    "dev": "tsc -w"
+  },
+  "n8n": {
+    "n8nNodes": [
+      "dist/nodes/Random/Random.node.js"
+    ]
+  },
+  "dependencies": {
+    "n8n-core": "^1.14.1",
+    "n8n-workflow": "^1.17.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.2.1",
+    "cpx": "^1.5.0",
+    "typescript": "^5.9.2"
+  }
+}
